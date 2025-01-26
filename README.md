@@ -19,7 +19,7 @@ Ce projet constitue la suite du TD3. Pour comprendre le début du TD3, consultez
 
 ### Auteurs
 
-- Alexis DEMOL - Développeur principal
+- #### Alexis DEMOL - Développeur principal
 - Kevin GUERRIER - Fournisseur de la base du projet (Enseignant)
 
 © 2025 Alexis DEMOL. Tous droits réservés.
