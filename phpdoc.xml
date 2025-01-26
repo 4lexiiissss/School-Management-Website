@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor configVersion="3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="https://www.phpdoc.org"
+xsi:noNamespaceSchemaLocation="data/xsd/phpdoc.xsd">
+<title>Documentation du 26/05/2025 par Alexis Demol</title>
+<paths>
+<output>docs</output>
+</paths>
+<version number="latest">
+<folder>.</folder>
+<api>
+<source dsn=".">
+<path>.</path>
+</source>
+<output>doc</output>
+<ignore hidden="true" symlinks="true">
+<path>docs/**/*</path>
+<path>tests/**/*</path>
+<path>vendor/**/*</path>
+<path>composer.*</path>
+<path>.env</path>
+<path>phpdoc.xml</path>
+<path>template_pheader.txt</path>
+</ignore>
+<extensions>
+<extension>php</extension>
+</extensions>
+</api>
+</version>
+</phpdocumentor>
+
+<!--Pour lancer la docummentation avec phpDocumentor: php C:\Users\alexi\OneDrive\Documents\IUT\BUT2-INFO\R3.01\devWebPHP\phpDocumentor.phar run -v -c "C:\DevWeb-R3.07\TD3\phpdoc.xml"-->
